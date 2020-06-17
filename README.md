@@ -75,7 +75,9 @@ In this section you will know More bout this interesting project :smiley:
 
 We will be using a dataset originally compiled and posted on the Machine Learning website search has a very good collection of datasets for experimental research purposes. If you're interested, you can review the abstract and the original data file on the wep site.
 
-![alt text][image1]
+<p align="center">
+  <img src="./images/Captureautomata.PNG"/>
+</p>
 
 
 ---
