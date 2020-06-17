@@ -112,11 +112,13 @@ Here we'd like to introduce the Bag of Words(BoW) concept which is a term used t
 a collection of text data that needs to be worked with. The basic idea of BoW is to take a piece of text and count the frequency of the 
 
 words in that text. It is important to note that the BoW concept treats each word individually and the order in which the words occur 
+
 does not matter.
 
 Using a process which we will go through now, we can covert a collection of documents to a matrix, with each document being a row and 
 
-each word(token) being the column, and the corresponding (row,column) values being the frequency of occurrance of each word or token in 
+each word(token) being the column, and the corresponding (row,column) values being the frequency of occurrance of each word or token in
+
 that document.
 
 ### steps of Bag of words
