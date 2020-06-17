@@ -242,7 +242,7 @@ print(predictions)
 - output
 
 - output
-<p align = "center" ,width = 300 , height = 20>
+<p  width = 300 , height = 20>
   <img src="./images/out.PNG"/>
 </p>
 
@@ -254,7 +254,7 @@ print(predictions)
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score
 
 ```
-<p width = 300 , height = 400>
+<p align = "center" ,width = 300 , height = 400>
   <img src="./images/acc.jpg"/>
 </p>
 
