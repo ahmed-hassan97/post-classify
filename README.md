@@ -19,6 +19,7 @@ In this section you will know More bout this interesting project :smiley:
 - [steps of this project](#steps_of_this_project)
 - [Running the tests](#Running_the_tests)
 - [Deployment](#Deployment)
+- [accuracy](#accuracy)
 - [Built With](#Built_With)
 - [Contributing](#Contributing)
 - [Versioning](#Versioning)
@@ -249,9 +250,12 @@ print(predictions)
 ---
 
 ### accuracy
+```
+from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score
 
-<p width = 300 , height = 20>
-  <img src="./images/acc.JPG"/>
+```
+<p width = 300 , height = 400>
+  <img src="./images/acc.jpg"/>
 </p>
 
 
