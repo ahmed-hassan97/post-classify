@@ -135,6 +135,12 @@ for i in documents:
 print(lower_case_documents)
 
 ```
+- output 
+<p width = 300 , height = 20>
+  <img src="./images/low.PNG"/>
+</p>
+
+
 * Removing all punctuation
 
 Remove all punctuation from the strings in the document set. Save them into a list called 'sans_punctuation_documents'.
