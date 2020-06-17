@@ -53,6 +53,7 @@ In this section you will know More bout this interesting project :smiley:
    import codecs
    import string
    from sklearn.model_selection import train_test_split
+   from sklearn.feature_extraction.text import CountVectorizer
 
    
 ```
@@ -201,12 +202,21 @@ pprint.pprint(frequency_list)
   <img src="./images/count.PNG"/>
 </p>
 
-*
-
-
----
 
 ### Implementing Bag of Words in scikit-learn
+
+```
+from sklearn.feature_extraction.text import CountVectorizer
+count_vector = CountVectorizer()
+count_vector.fit(documents)
+count_vector.get_feature_names()
+doc_array = count_vector.transform(documents).toarray()
+
+```
+- output
+<p width = 300 , height = 70>
+  <img src="./images/count2.PNG"/>
+</p>
 
 ---
 
@@ -216,17 +226,31 @@ pprint.pprint(frequency_list)
 
 ### Naive Bayes implementation using scikit-learn
 
+```
+from sklearn.naive_bayes import MultinomialNB
+naive_bayes = MultinomialNB()
+naive_bayes.fit(training_data,y_train)
+
+```
 ---
 
 ### Evaluating our model
 
+```
+predictions = naive_bayes.predict(testing_data)
+
+print(predictions)
+
+```
+- output
+
+- output
+<p width = 300 , height = 20>
+  <img src="./images/out.PNG"/>
+</p>
+
+
 ---
-
-### Running the tests
-
-
----
-
 
 
 ### Deployment
@@ -242,24 +266,13 @@ Add additional notes about how to deploy this on a live system
 * [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
 
 ---
+### dataset
 
-### Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
----
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
----
+dataset from our paper research 
+[paper]()
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
 ---
 
@@ -269,5 +282,5 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ---
 
-
+[Back To The Top](#README.md) :point_up:
 
