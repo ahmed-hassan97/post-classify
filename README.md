@@ -276,7 +276,7 @@ Add additional notes about how to deploy this on a live system
 ### dataset
 
 dataset from our paper research 
-[paper]()
+[paper](https://www.researchgate.net/publication/322704992_Building_Online_Social_Network_Dataset_for_Arabic_Text_Classification?fbclid=IwAR2pvpBJ42yM1s6YnvGkb-kyD1XLh2HviwWDF0muqEgJL9dB0eo73vqIkCU)
 
 ## Authors
 
