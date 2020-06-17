@@ -220,10 +220,6 @@ doc_array = count_vector.transform(documents).toarray()
 
 ---
 
-### Training and testing sets
-
----
-
 ### Naive Bayes implementation using scikit-learn
 
 ```
@@ -251,6 +247,13 @@ print(predictions)
 
 
 ---
+
+### accuracy
+
+<p width = 300 , height = 20>
+  <img src="./images/acc.JPG"/>
+</p>
+
 
 
 ### Deployment
