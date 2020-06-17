@@ -276,12 +276,48 @@ from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_sc
 
 ### stemming
 
-using Tashaphyne libraries[here](https://pypi.org/project/Tashaphyne/)
+using Tashaphyne libraries [here](https://pypi.org/project/Tashaphyne/)
 
+* about this libraries
 
+Tashaphyne is an Arabic light stemmer and segmentor. It mainly supports light stemming (removing prefixes and suffixes) and give all
+
+possible segmentations. It use a modified finite state Automaton which allow to generate all segmentations.
+
+It offers stemming and root extraction at the same time unlike Khoja stemmer, ISRI semmer, Assem stemmer, Farasa stemmer.
+
+Tashaphyne comes with default prefixes and suffixes, and accept the use of customized prefixes and suffixes list, which allow it to
+
+handle more aspect, and make customized stemmers without changing code.
+
+* Features
+
+1- Arabic word Light Stemming.
+2- Root Extraction.
+3- Word Segmentation
+4- Word normalization
+5- Default Arabic Affixes list.
+
+* Applications
+
+1- Stemming texts
+2- Text Classification and categorization
+3- Sentiment Analysis
+4- Named Entities Recognition
+
+* Installation
+
+```
+pip install tashaphyne
+
+```
 ### Deployment
 
-Add additional notes about how to deploy this on a live system
+```
+this project we deploy it on herouko
+```
+
+[herouko](https://posts-classification.herokuapp.com/)
 
 ---
 
