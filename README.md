@@ -20,6 +20,7 @@ In this section you will know More bout this interesting project :smiley:
 - [Running the tests](#Running_the_tests)
 - [Deployment](#Deployment)
 - [accuracy](#accuracy)
+- [stemming](#stemming)
 - [Built With](#Built_With)
 - [Contributing](#Contributing)
 - [Versioning](#Versioning)
@@ -271,6 +272,12 @@ from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_sc
 <p align = "center" ,width = 300 , height = 400>
   <img src="./images/accuarcy using ntlk stop wards and using stemming .jpg"/>
 </p>
+
+
+### stemming
+
+using Tashaphyne libraries[here](https://pypi.org/project/Tashaphyne/)
+
 
 ### Deployment
 
