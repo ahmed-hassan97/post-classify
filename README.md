@@ -242,7 +242,7 @@ print(predictions)
 - output
 
 - output
-<p align = center ,width = 300 , height = 20>
+<p align = "center" ,width = 300 , height = 20>
   <img src="./images/out.PNG"/>
 </p>
 
