@@ -198,7 +198,7 @@ pprint.pprint(frequency_list)
 ```
 - output
 <p width = 300 , height = 50>
-  <img src="./images/punc.PNG"/>
+  <img src="./images/count.PNG"/>
 </p>
 
 *
