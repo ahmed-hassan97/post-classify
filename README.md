@@ -154,6 +154,11 @@ for i in lower_case_documents:
 print(sans_punctuation_documents)
 
 ```
+- output
+<p width = 300 , height = 20>
+  <img src="./images/punc.PNG"/>
+</p>
+
 * Tokenization
 Tokenizing a sentence in a document set means splitting up a sentence into individual words using a delimiter. The delimiter specifies
 
@@ -168,6 +173,11 @@ for i in sans_punctuation_documents:
 print(preprocessed_documents)
 
 ```
+
+- output
+<p width = 300 , height = 20>
+  <img src="./images/tokenization.PNG"/>
+</p>
 
 * Count frequencies
 
@@ -186,6 +196,10 @@ for i in preprocessed_documents:
 pprint.pprint(frequency_list)
 
 ```
+- output
+<p width = 300 , height = 50>
+  <img src="./images/punc.PNG"/>
+</p>
 
 *
 
