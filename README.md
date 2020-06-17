@@ -291,6 +291,7 @@ using Tashaphyne libraries [here](https://pypi.org/project/Tashaphyne/)
     handle more aspect, and make customized stemmers without changing code.
 
 ---
+
 * Features
 
 1- Arabic word Light Stemming.
