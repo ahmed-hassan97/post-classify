@@ -254,11 +254,23 @@ print(predictions)
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score
 
 ```
+* accuracy with no stop wards
+
 <p align = "center" ,width = 300 , height = 400>
-  <img src="./images/acc.jpg"/>
+  <img src="./images/no_stop_words.jpg"/>
 </p>
 
+* accuracy with ntlk _stop_words_only
 
+<p align = "center" ,width = 300 , height = 400>
+  <img src="./images/ntlk _stop_words_only .jpg"/>
+</p>
+
+* accuarcy using ntlk stop wards and using stemming .jpg
+
+<p align = "center" ,width = 300 , height = 400>
+  <img src="./images/accuarcy using ntlk stop wards and using stemming .jpg"/>
+</p>
 
 ### Deployment
 
